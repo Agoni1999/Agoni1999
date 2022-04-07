@@ -117,7 +117,7 @@ export default {
             });
             this.weathData = res3;
             this.weathData.daily_forecast.shift();
-            this.weathData.daily_forecast.splice(3, 3);
+           
           } else {
             // 2.彻底无法找到该地
             this.$message({
